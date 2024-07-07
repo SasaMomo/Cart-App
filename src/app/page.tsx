@@ -5,7 +5,7 @@ import Products from "./components/Products";
 
 export default function Home() {
   return (
-    <main className="block">
+    <main className="block mx-auto container">
       <Band />
       <Products />
     </main>

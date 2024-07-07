@@ -10,7 +10,7 @@ const Band = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    pauseOnHover: false,
+    pauseOnHover: true,
   };
 
   const slideData = [
@@ -18,21 +18,21 @@ const Band = () => {
       id: 0,
       img: "https://i.imgur.com/fRI6HyU.png",
       title: "Coleção retorna",
-      desc: "first stuff",
+      desc: "Roupas e acessórios",
       price: "R$ 25",
     },
     {
       id: 1,
       img: "https://i.imgur.com/PgNmKWc.png",
       title: "Coleção Retorna",
-      desc: "first stuff",
+      desc: "Roupas e acessórios",
       price: "R$ 44",
     },
     {
       id: 2,
       img: "https://i.imgur.com/zTeF2VN.png",
       title: "Coleção do mês",
-      desc: "first stuff",
+      desc: "Roupas e acessórios",
       price: "R$ 35",
     },
 
@@ -40,7 +40,7 @@ const Band = () => {
       id: 3,
       img: "https://i.imgur.com/gW4sJ2O.png",
       title: "Nova coleção",
-      desc: "first stuff",
+      desc: "Roupas e acessórios",
       price: "R$ 35",
     },
   ];
