@@ -29,10 +29,10 @@ const Slides: React.FC<propsType> = ({ img, title, desc, price }) => {
         </div>
       </div>
       <Image
-        className="w-[100%] h-[400px] md-h-auto rounded-xl object-cover object-right md:object-left-botom"
+        className="w-full md-h-auto min-h-[350px] rounded-xl mx-auto object-cover object-right md:object-left-botom"
         src={img}
         alt="Slide"
-        width={1000}
+        width={1200}
         height={400}
       />
     </div>

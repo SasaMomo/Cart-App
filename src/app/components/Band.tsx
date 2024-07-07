@@ -16,22 +16,30 @@ const Band = () => {
   const slideData = [
     {
       id: 0,
-      img: "https://i.imgur.com/sbonfdX.png",
-      title: "Slide1",
+      img: "https://i.imgur.com/fRI6HyU.png",
+      title: "Coleção retorna",
       desc: "first stuff",
       price: "R$ 25",
     },
     {
       id: 1,
-      img: "https://i.imgur.com/sbonfdX.png",
-      title: "Slide2",
+      img: "https://i.imgur.com/PgNmKWc.png",
+      title: "Coleção Retorna",
       desc: "first stuff",
       price: "R$ 44",
     },
     {
       id: 2,
-      img: "https://i.imgur.com/sbonfdX.png",
-      title: "Slide3",
+      img: "https://i.imgur.com/zTeF2VN.png",
+      title: "Coleção do mês",
+      desc: "first stuff",
+      price: "R$ 35",
+    },
+
+    {
+      id: 3,
+      img: "https://i.imgur.com/gW4sJ2O.png",
+      title: "Nova coleção",
       desc: "first stuff",
       price: "R$ 35",
     },
