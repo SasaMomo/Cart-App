@@ -6,7 +6,7 @@ const productsData = [
     img: "https://i.imgur.com/wyd9Jzm.jpeg",
     title: "Blusa branca básica feminina",
     desc: "Blusa de viscose e algodão",
-    rating: 4,
+    rating: 5,
     price: 45.0,
   },
   {
@@ -27,14 +27,14 @@ const productsData = [
     img: "https://i.imgur.com/UBdXfEO.jpeg",
     title: "Blusa branca Leg masculina",
     desc: "Blusa de viscose e algodão",
-    rating: 4,
+    rating: 5,
     price: 45.0,
   },
   {
     img: "https://i.imgur.com/UBdXfEO.jpeg",
     title: "Blusa branca básica masculina",
     desc: "Blusa de viscose e algodão",
-    rating: 4,
+    rating: 5,
     price: 45.0,
   },
   {

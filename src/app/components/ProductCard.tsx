@@ -75,10 +75,10 @@ const ProductCard: React.FC<propsType> = ({
   };
 
   return (
-    <div className="sm:flex flex-col px-4 border border-gray-200 rounded-xl max-w-[400px] max-h-[450px] sm:max-h-[480px] sm:min-h-[480px] justify-around">
+    <div className="sm:flex flex-col px-4 border border-gray-200 rounded-xl max-w-[440px] sm:max-w-[400px] max-h-[450px] sm:max-h-[480px] sm:min-h-[480px] justify-around">
       <div className="">
         <Image
-          className="w-[300px] h-[300px] mt-4"
+          className="w-[300px] sm:h-[300px] h-[250px]  mt-4"
           src={img}
           width={300}
           height={300}
@@ -86,8 +86,10 @@ const ProductCard: React.FC<propsType> = ({
         />
       </div>
       <div className="space-y-2 py-2 text-center">
-        <h2 className="text-pri font-medium uppercase">{title}</h2>
-        <p className="text-gray-500 ">{desc}</p>
+        <h2 className="text-pri font-medium text-[14px] md:text-lg uppercase">
+          {title}
+        </h2>
+        <p className="text-gray-500 text-[14px] md:text-lg ">{desc}</p>
         <div className="w-[200px] mx-auto px-2 flex justify-around">
           {RatingPoints(rating)}
         </div>

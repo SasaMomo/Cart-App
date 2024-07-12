@@ -7,8 +7,8 @@ import { HiOutlineShoppingBag } from "react-icons/hi";
 export default function MobHeader() {
   return (
     <div className="corder-b border-gray-200 py-6">
-      <div className="container sm:flex justify-between items-center">
-        <div className="w-20 h-20 pb-4 sm:pb-0">
+      <div className="container sm:flex justify-around items-center">
+        <div className="w-20 h-20 pb-4 sm:pb-0 mx-auto sm:mx-0">
           <Image
             src="https://i.imgur.com/lrtfT4q.png"
             alt="logo"

@@ -6,6 +6,8 @@ import MobHeader from "./components/MobHeader";
 import Navbar from "./components/Navbar";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import BottomHeader from "./components/BottomHeader";
+import Footer from "./components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,7 +27,9 @@ export default function RootLayout({
         <Header />
         <MobHeader />
         <Navbar />
+        <BottomHeader />
         {children}
+        <Footer />
       </body>
     </html>
   );
