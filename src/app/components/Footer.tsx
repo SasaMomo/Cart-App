@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className=" bg-pri">
+    <footer className=" bg-pri mt-4">
       <div className="flex gap-2 justify-around px-10 py-2 container font-bold">
         <p>Baixe Nosso APP</p>
         <p>Anuncie</p>
